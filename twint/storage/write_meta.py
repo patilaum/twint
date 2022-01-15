@@ -98,7 +98,7 @@ def userData(u):
             "private": u.is_private,
             "verified": u.is_verified,
             "profile_image_url": u.avatar,
-            "background_image": u.background_image
+            #"background_image": u.background_image
             }
     return data
 
@@ -120,7 +120,7 @@ def userFieldnames():
             "private",
             "verified",
             "profile_image_url",
-            "background_image"
+            #"background_image"
             ]
     return fieldnames
 
